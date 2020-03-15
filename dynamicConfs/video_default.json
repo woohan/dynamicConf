@@ -1,0 +1,11 @@
+[{
+    "tc": {"delay": "23ms", "jitter": "10ms", "correlation": "", "distribution": "distribution pareto", "packetloss": "", "correlated": "","gemodel": "gemodel", "p": "1%", "r": "10%", "1-h": "70%", "1-k": "0.1%"},
+    "producer": {"queue.buffering.max.kbytes": 1048576, "queue.buffering.max.ms": 0.5, "batch.num.messages": 1, "message.send.max.retries": 1, "retry.backoff.ms": 40, "default.topic.config": {"message.timeout.ms": 5000, "request.required.acks": 1}},
+    "globalparas": {"duration": 300, "total.num.messages": 1000000, "poll.interval": 0, "message.size": 100}
+    },
+{
+    "tc": {"delay": "37ms", "jitter": "15ms", "correlation": "70%", "distribution": "distribution pareto", "packetloss": "8%", "correlated": "", "gemodel": "", "p": "", "r": "", "1-h": "", "1-k": ""},
+    "producer": {"queue.buffering.max.kbytes": 1048576, "queue.buffering.max.ms": 0.5, "batch.num.messages": 1, "message.send.max.retries": 1, "retry.backoff.ms": 40, "default.topic.config": {"message.timeout.ms": 5000, "request.required.acks": 1}},
+    "globalparas": {"duration": 300, "total.num.messages": 1000000, "poll.interval": 0, "message.size": 100}
+    }
+]

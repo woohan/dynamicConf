@@ -1,0 +1,1 @@
+{"queue.buffering.max.kbytes": 1048576, "queue.buffering.max.ms": 0.5, "batch.num.messages": 10, "message.send.max.retries": 1, "retry.backoff.ms": 40, "default.topic.config": {"message.timeout.ms": 5000, "request.required.acks": 0.01}, "message.size": 100, "network.delay": 74.0, "packet.loss": 8.0, "total.produce.time": 247.57349681854248, "poll.timeout.ms": 0}
